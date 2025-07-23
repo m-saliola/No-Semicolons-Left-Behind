@@ -1,5 +1,7 @@
 body {
+  color: white;
   background-color: #151515;
+  font-family: sans-serif;
 }
 
 .code-block {
