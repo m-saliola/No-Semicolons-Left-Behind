@@ -6,6 +6,23 @@ body {
   line-height: 1;
 }
 
+#top-bar {
+  height: 6px;
+  width: 100%;
+}
+
+body.home #top-bar {
+  background: linear-gradient(to right, #a8e063, #56ab2f);
+}
+
+body.java #top-bar {
+  background: linear-gradient(to right, #d46ac2, #6a0dad);
+}
+
+body.cpp #top-bar {
+  background: linear-gradient(to right, #56ccf2, #2f8ebd);
+}
+
 pre {
   background-color: #2d2d2d;
   color: #cc3aff;
