@@ -2,10 +2,22 @@
   background-color: #2d2d2d;
   color: #f8f8f2;
   font-family: Consolas, monospace;
-  padding: 1em;
-  border-radius: 5px;
+  padding: 0 100% 0 10px;
+  border-radius: 10px;
   white-space: pre-wrap;
   overflow-x: auto;
-  margin: 1em 0;
-  font-size: 1rem;
+  margin: 0px 0;
+  font-size: 1.25rem;
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  line-height: 1.2;
+}
+
+.code-block pre {
+  display: block;
+  margin: -40px 0 -40px 0;
+  padding: 0;
+  line-height: inherit;
+  font-family: inherit;
 }
