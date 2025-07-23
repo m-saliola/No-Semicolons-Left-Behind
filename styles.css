@@ -46,6 +46,10 @@ p {
   margin: 15px 10px;
 }
 
+a {
+  color: #4d94ff;
+}
+
 pre {
   background-color: #2d2d2d;
   color: #00ff23;
