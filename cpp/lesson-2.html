@@ -11,7 +11,7 @@
       <span class="pagename"><a href="index.html" class="topbar-link">C++ Lesson 2 - Writing Your First C++ Program</a></span>
     </div>
     <h2>There's a little setup!</h2>
-    <p>Create a new file in vscode by clicking File/New File. Save it with ctrl+s (command+s if you're on mac) and name it main.cpp.</p>
+    <p>Create a new file in vscode by clicking File/New File. Save it with ctrl+s (command+s if you're on mac) and name it main.cpp. You don't have to name it main, that part can be whatever you want, but the .cpp at the end is essential!</p>
     <br />
     <p>Every program written in c++ has this same block of code that is necessary for the program to work.</p>
     <pre>int main() {
@@ -19,5 +19,13 @@
 }</pre>
     <p>Don't worry, you don't need to understand what this does just yet. Just know that every program needs these few lines of code.</p>
     <p>Paste it into the file you created earlier, then we'll compile it!</p>
+    <br />
+    <h2>Compiling your first program</h2>
+    <p>To compile a c++ program, we use the g++ compiler we installed in the last lesson.</p>
+    <p>Open vscode's terminal by pressing ctrl+`, and run</p>
+    <pre>g++ main.cpp -o main</pre>
+    <p>This will create a new file called main (main.exe if you're on windows) which is the compiled version of your program.</p>
+    <p>If you named your file something else, just replace 'main' with the name of your file. For example, if I called my program potato_machine.cpp, I would need to run</p>
+    <pre>g++ potato_machine.cpp -o potato_machine</pre>
   </body>
 </html>
