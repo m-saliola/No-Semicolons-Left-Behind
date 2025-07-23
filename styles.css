@@ -46,14 +46,17 @@ p {
   margin: 15px 10px;
 }
 
-a {
+p a {
+  color: #4d94ff;
   text-decoration: none;
+}
+
+p a:visited {
   color: #4d94ff;
 }
 
-a:visited {
-  text-decoration: none;
-  color: #4d94ff;
+p a:hover {
+  text-decoration: underline;
 }
 
 pre {
