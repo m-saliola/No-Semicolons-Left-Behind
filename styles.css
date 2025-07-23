@@ -1,6 +1,10 @@
+body {
+  background-color: #151515;
+}
+
 .code-block {
   background-color: #2d2d2d;
-  color: #f8f8f2;
+  color: #cc3aff;
   font-family: Consolas, monospace;
   padding: 0 10px;
   border-radius: 10px;
