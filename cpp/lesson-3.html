@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>N;LB!</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body class="cpp">
+    <div id="top-bar">
+      <a href="../index.html" class="topbar-link">
+        <h4>No Semicolons Left Behind!</h4>
+      </a>
+      <span class="pagename"><a href="index.html" class="topbar-link">C++ Lesson 3 - Printing To The Terminal</a></span>
+    </div>
+    <h2>Your first "Hello, World!"</h2>
+    <p>In the java file you created last time, add</p>
+    <pre>System.out.println("Hello, World!")</pre>
+    <p>in the space between the two center curly braces. Your program should look like</p>
+    <pre>public class Main {
+  public static void main(String args[]) {
+    System.out.println("Hello, World!")
+  }
+}</pre>
+    <p>Compile and run this program, and you should see</p>
+    <pre>Hello, World!</pre>
+    <p>right under where you ran it.</p>
+    <br />
+    <h2>Why is there an error?</h2>
+    <p>In java, every statement needs to be ended with a semicolon, to separate one line of code to the other so the compiler knows how to compile our program.</p>
+    <p>So in our code, we need to add a semicolon after our println statement. Your code should look like</p>
+    <pre>public class Main {
+  public static void main(String args[]) {
+    System.out.println("Hello, World!");
+  }
+}</pre>
+    <br />
+    <p>If you're wondering why there aren't any semicolons after the 4 other lines, that's because they end with curly braces, and lines ending in braces don't need semicolons.</p>
+    <p>For now, just remember that in java, every line has to end with either a semicolon or a curly brace.</p>
+    <br />
+    <p>Re-compile and run it and now you should actually see some text get printed.</p>
+    <br />
+    <h2>Changing the text</h2>
+    <p>If you want to print something other than</p>
+    <pre>Hello, World!</pre>
+    <p>then you just need to change the text in between the quotation marks to be whatever you want. For example, this</p>
+    <pre>System.out.println("Potato Machine");</pre>
+    <p>will print</p>
+    <pre>Potato Machine</pre>
+    <br />
+    <p>Make sure to remember the quotes, your code won't work without them!</p> 
+  </body>
+</html>
