@@ -11,24 +11,18 @@
       </a>
       <span class="pagename"><a href="index.html" class="topbar-link">Java Lesson 3 - Printing To The Terminal</a></span>
     </div>
-    <h2>There's a little setup!</h2>
-    <p>Create a new file in vscode by clicking File/New File. Save it with ctrl+s (command+s if you're on mac) and name it Main.java. You don't have to name it Main, that part can be whatever you want, but the .java at the end is essential!</p>
-    <br />
-    <p>Every program written in java has this same block of code that is necessary for the program to work.</p>
+    <h2>Your first "Hello, World!"</h2>
+    <p>In the java file you created last time, add</p>
+    <pre>System.out.println("Hello, World!")</pre>
+    <p>in the space between the two center curly braces. Your program should look like</p>
     <pre>public class Main {
-  public static void main(String[] args) {
-
+  public static void main(String args[]) {
+    System.out.println("Hello, World!")
   }
 }</pre>
-    <p>Don't worry, you don't need to understand what this does just yet. Just know that every program needs these few lines of code.</p>
-    <p>Paste it into the file you created earlier, then we'll compile it!</p> 
-    <br />
-    <p>If you named your program something other than Main.java, let's say PotatoMachine.java, then you would replace the Main on the first line with your program's name. For example:</p>
-    <pre>public class PotatoMachine {
-  public static void main(String[] args) {
-
-  }
-}</pre>
+    <p>Compile and run this program, and you should see</p>
+    <pre>Hello, World!</pre>
+    <p>right under where you ran it.</p>
     <br />
     <h2>Compiling your first program</h2>
     <p>To compile a java program, we use the javac command that comes with the JDK we installed in the last lesson.</p>
