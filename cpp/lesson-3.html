@@ -16,7 +16,7 @@
     <pre>std::cout << "Hello, World!" << std::endl</pre>
     <p>in the space between the two curly braces. Your program should look like</p>
     <pre>int main() {
-  std::cout << "Hello, World!" << std::endl;
+  std::cout << "Hello, World!" << std::endl
 }</pre>
     <br />
     <p>You also need to include iostream, which gives c++ the ability to print. Think of it as telling the program to learn how to print, before actually attempting to write to the terminal.</p>
@@ -24,7 +24,7 @@
     <pre>#include &lt;iostream&gt;
 
 int main() {
-  std::cout << "Hello, World!" << std::endl;
+  std::cout << "Hello, World!" << std::endl
 }</pre>
     <br />
     <p>Compile and run this program, and you should see</p>
@@ -32,16 +32,16 @@ int main() {
     <p>right under where you ran it.</p>
     <br />
     <h2>Why is there an error?</h2>
-    <p>In java, every statement needs to be ended with a semicolon, to separate one line of code to the other so the compiler knows how to compile our program.</p>
-    <p>So in our code, we need to add a semicolon after our println statement. Your code should look like</p>
-    <pre>public class Main {
-  public static void main(String args[]) {
-    System.out.println("Hello, World!");
-  }
+    <p>In c++, every statement needs to be ended with a semicolon, to separate one line of code to the other so the compiler knows how to compile our program.</p>
+    <p>So in our code, we need to add a semicolon after our std::cout statement. Your code should look like</p>
+    <pre>#include &lt;iostream&gt;
+
+int main() {
+  std::cout << "Hello, World!" << std::endl;
 }</pre>
     <br />
-    <p>If you're wondering why there aren't any semicolons after the 4 other lines, that's because they end with curly braces, and lines ending in braces don't need semicolons.</p>
-    <p>For now, just remember that in java, every line has to end with either a semicolon or a curly brace.</p>
+    <p>If you're wondering why there aren't any semicolons after the other lines, that's because they either end with curly braces or include a header, such as iostream, and lines like those don't need semicolons.</p>
+    <p>For now, just remember that in c++, every line has to end with either a semicolon or a curly brace, unless they include something.</p>
     <br />
     <p>Re-compile and run it and now you should actually see some text get printed.</p>
     <br />
